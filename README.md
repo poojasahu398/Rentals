@@ -1,6 +1,6 @@
-### Airplane
+### rental
 
-Airplane
+Manage Rentals inn Frappe
 
 ### Installation
 

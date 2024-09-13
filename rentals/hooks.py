@@ -1,8 +1,8 @@
 app_name = "rentals"
-app_title = "Airplane"
-app_publisher = "Pooja sahu"
-app_description = "Airplane"
-app_email = "poojateli@navgurukul.org"
+app_title = "rental"
+app_publisher = "BWH"
+app_description = "Manage Rentals inn Frappe"
+app_email = "poojateli23@navgurukul.org"
 app_license = "mit"
 # required_apps = []
 
