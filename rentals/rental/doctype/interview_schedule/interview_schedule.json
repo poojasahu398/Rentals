@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-09-18 11:50:31.967759",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "candidate_name",
+  "interviewer_name",
+  "select_mnbc",
+  "interview_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "candidate_name",
+   "fieldtype": "Link",
+   "label": "Candidate Name ",
+   "options": "Candidates Data"
+  },
+  {
+   "fieldname": "interviewer_name",
+   "fieldtype": "Link",
+   "label": "Interviewer Name ",
+   "options": "Interviewer"
+  },
+  {
+   "fieldname": "select_mnbc",
+   "fieldtype": "Select",
+   "label": "Role applied",
+   "options": "Backend Developer\nFrontend Developer\nFull Stack Developer\nUI/UX Designer\nData Analyst\nDevOps Engineer\nProject Manager\nHR Manager"
+  },
+  {
+   "fieldname": "interview_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Interview Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "hired\nrejected\nin progress"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-18 11:57:33.379806",
+ "modified_by": "Administrator",
+ "module": "rental",
+ "name": "Interview Schedule",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Green",
+   "title": "hired"
+  },
+  {
+   "color": "Red",
+   "title": "rejected "
+  },
+  {
+   "color": "Yellow",
+   "title": "in progress "
+  }
+ ]
+}

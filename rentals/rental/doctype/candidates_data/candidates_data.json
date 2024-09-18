@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-09-18 11:46:08.043535",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "experience",
+  "skills",
+  "applied_role"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Experience",
+   "reqd": 1
+  },
+  {
+   "fieldname": "skills",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Skills",
+   "reqd": 1
+  },
+  {
+   "fieldname": "applied_role",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Applied Role",
+   "options": "Frontend Developer\nBackend Developer\nFull-stack Developer\nDevOps Engineer\nUI/UX Designer\nData Scientist\nQA Engineer\nMobile App Developer\nCloud Engineer\nProduct Manager",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-18 17:47:26.039269",
+ "modified_by": "Administrator",
+ "module": "rental",
+ "name": "Candidates Data",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
